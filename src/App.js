@@ -1,12 +1,10 @@
 import React from 'react'
-import logo from './logo.svg'
-import './App.css'
-import { FormHandler } from './FormHandler'
+import { TestForm } from './TestForm'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <FormHandler/>
+      <TestForm/>
     </div>
   )
 }
